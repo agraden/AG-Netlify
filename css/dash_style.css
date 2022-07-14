@@ -1,0 +1,97 @@
+h1 {
+  text-align: center;
+}
+
+.c1-bg {
+  background-image: url("/Login/desk.jpg");
+  background-color:black;
+  max-height: 550px;
+}
+
+.chapter1 {
+  height: 100vh;
+  background-size: cover;
+}
+
+
+.title {
+  font-size:100px;
+  font-weight: bold;
+}
+
+.headline-title {
+  font-size:40px;
+  font-weight: bold;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.headline-title-blue {
+  font-size:40px;
+  font-weight: bold;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: rgb(0, 174, 255);
+}
+.subtitle {
+  font-size: 20px;
+  margin-left: 30%;
+  margin-right: 25%;
+}
+
+.hero-text {
+  padding-top: 20%;
+  color: #1f1f1f;
+  font-size: 30px;
+}
+
+hr.here {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.hero-desc {
+  font-size: 2rem;
+}
+
+.nav-shadow {
+  text-shadow: 1px 1px 2px black;
+}
+
+.btn-purple {
+  background-color: #766df4;
+  text-align: center;
+  vertical-align: middle;
+  border: 0;
+}
+
+.user-dashboard {
+  align-items: center;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+  padding: 0;
+}
+
+.user-dashboard button {
+  background-color: rgb(40, 46, 136);
+  border: 0;
+  border-radius: 0.5rem;
+  color: white;
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
